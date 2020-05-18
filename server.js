@@ -14,7 +14,7 @@ app.get('/message', async function (req, res) {
   res.send(secret)
 })
 
-const port = 3000
+const port = 2000
 app.listen(port, function () {
   console.log(`running on port ${port}`)
 })
